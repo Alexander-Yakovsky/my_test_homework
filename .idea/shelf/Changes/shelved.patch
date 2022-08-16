@@ -1,0 +1,17 @@
+Index: lesson1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import requests\nprint('Ура я победил')
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lesson1.py b/lesson1.py
+--- a/lesson1.py	(revision b0942dce7bfab93eebafb4a0782d139d78320a13)
++++ b/lesson1.py	(date 1660679763388)
+@@ -1,2 +1,4 @@
+ import requests
+-print('Ура я победил')
+\ No newline at end of file
++print('Ура я победил')
++
++text = { }
